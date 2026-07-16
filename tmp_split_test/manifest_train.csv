@@ -1,0 +1,3 @@
+ground_path,reference_json,sat_path,sat_json,label,site,lat,lon,crop_size,split
+site_a\ground\sample.jpg,site_a\reference\sample.json,site_a\maxar\tile.tif,,sample,site_a,1.0,2.0,384,train
+site_b\ground\sample.jpg,site_b\reference\sample.json,site_b\maxar\tile.tif,,sample,site_b,1.0,2.0,384,train
