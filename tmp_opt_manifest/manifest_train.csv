@@ -1,0 +1,9 @@
+ground_path,reference_json,sat_path,sat_json,label,site,lat,lon,crop_size,weather_variant,split
+site_a\ground\img1.jpg,site_a\reference\img1.json,site_a\maxar\cloudy\tile.png,,img1,site_a,1.0,2.0,384,cloudy,train
+site_a\ground\img1.jpg,site_a\reference\img1.json,site_a\maxar\sunny\tile.png,,img1,site_a,1.0,2.0,384,sunny,train
+site_a\ground\img2.jpg,site_a\reference\img2.json,site_a\maxar\cloudy\tile.png,,img2,site_a,3.0,4.0,384,cloudy,train
+site_a\ground\img2.jpg,site_a\reference\img2.json,site_a\maxar\sunny\tile.png,,img2,site_a,3.0,4.0,384,sunny,train
+site_b\ground\img1.jpg,site_b\reference\img1.json,site_b\maxar\cloudy\tile.png,,img1,site_b,1.0,2.0,384,cloudy,train
+site_b\ground\img1.jpg,site_b\reference\img1.json,site_b\maxar\sunny\tile.png,,img1,site_b,1.0,2.0,384,sunny,train
+site_b\ground\img2.jpg,site_b\reference\img2.json,site_b\maxar\cloudy\tile.png,,img2,site_b,3.0,4.0,384,cloudy,train
+site_b\ground\img2.jpg,site_b\reference\img2.json,site_b\maxar\sunny\tile.png,,img2,site_b,3.0,4.0,384,sunny,train
