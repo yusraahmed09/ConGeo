@@ -35,7 +35,8 @@ def _find_site_roots(root_dir, ground_dir, reference_dir, maxar_dir):
         for candidate in sorted(root.rglob('*'), key=lambda p: str(p)):
             if candidate.is_dir() and _is_site_dir(candidate):
                 site_roots.append(candidate)
-
+    
+    print(f"Found {len(site_roots)} site roots")            
     return sorted(dict.fromkeys(site_roots), key=lambda p: str(p))
 
 
@@ -141,7 +142,8 @@ def build_manifest(root_dir, out_csv, ground_dir='ground', reference_dir='refere
         ground_root = site_root / ground_dir
         ref_root = site_root / reference_dir
         maxar_root = site_root / maxar_dir
-
+        
+        print(f"On site root: {site_root}")
         if not ground_root.exists() or not ref_root.exists() or not maxar_root.exists():
             continue
 

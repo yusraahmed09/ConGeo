@@ -307,6 +307,9 @@ def build_manifest(
         ground_root = site_root / ground_dir
         ref_root = site_root / reference_dir
         maxar_root = site_root / maxar_dir
+        
+        print(f"On site root: {site_root}")
+        
         if not ground_root.exists() or not ref_root.exists() or not maxar_root.exists():
             continue
 
